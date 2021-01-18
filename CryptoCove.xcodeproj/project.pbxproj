@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B6583A21D8CBB0F50996CD7 /* Pods_CryptoCove_CryptoCoveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 022F5862B008B218154ECBB2 /* Pods_CryptoCove_CryptoCoveUITests.framework */; };
+		21911CC8022B9943D4C241AF /* Pods_CryptoCoveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF24661CDBEF24AC3851E854 /* Pods_CryptoCoveTests.framework */; };
+		8288E35530EA2D228FFFDBA4 /* Pods_CryptoCove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6E203C19158D71135BC5BE /* Pods_CryptoCove.framework */; };
+		F630FC1824BF744C00C4B761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F630FC1724BF744C00C4B761 /* Assets.xcassets */; };
+		F630FC1B24BF744C00C4B761 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F630FC1A24BF744C00C4B761 /* Preview Assets.xcassets */; };
+		F630FC2624BF744C00C4B761 /* CryptoCoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F630FC2524BF744C00C4B761 /* CryptoCoveTests.swift */; };
+		F630FC3124BF744C00C4B761 /* CryptoCoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F630FC3024BF744C00C4B761 /* CryptoCoveUITests.swift */; };
+		F630FC4824BF762B00C4B761 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F630FC4724BF762B00C4B761 /* Extensions.swift */; };
+		F630FC4A24BF764600C4B761 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F630FC4924BF764600C4B761 /* ProfileController.swift */; };
+		F630FC5024BF767F00C4B761 /* ContainerControllerOLD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F630FC4F24BF767F00C4B761 /* ContainerControllerOLD.swift */; };
+		F630FC5224BF768D00C4B761 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F630FC5124BF768D00C4B761 /* ForgotPasswordController.swift */; };
+		F630FC5424BF769A00C4B761 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F630FC5324BF769A00C4B761 /* SignUpController.swift */; };
+		F630FC5624BF76AD00C4B761 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F630FC5524BF76AD00C4B761 /* LoginController.swift */; };
+		F630FC5A24BF7ADC00C4B761 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F630FC5924BF7ADC00C4B761 /* GoogleService-Info.plist */; };
+		F630FC5F24BF84BA00C4B761 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F630FC5E24BF84BA00C4B761 /* AppDelegate.swift */; };
+		F630FC6124BF84EB00C4B761 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F630FC6024BF84EB00C4B761 /* SceneDelegate.swift */; };
+		F630FC6524BF884900C4B761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F630FC6424BF884900C4B761 /* LaunchScreen.storyboard */; };
+		F6650B0A24CD2D5500D0A839 /* UserCryptoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6650B0924CD2D5500D0A839 /* UserCryptoAPI.swift */; };
+		F6650B0D24CD2DA500D0A839 /* UserCryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6650B0C24CD2DA500D0A839 /* UserCryptoTableViewCell.swift */; };
+		F6650B0F24CD2DC800D0A839 /* UserCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6650B0E24CD2DC800D0A839 /* UserCrypto.swift */; };
+		F667538324D7A1DF00399B9A /* WalletController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F667538224D7A1DF00399B9A /* WalletController.swift */; };
+		F667538524D7A22D00399B9A /* MSController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F667538424D7A22D00399B9A /* MSController.swift */; };
+		F667538724D7A27F00399B9A /* AddCoinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F667538624D7A27F00399B9A /* AddCoinController.swift */; };
+		F6771D2824CE407400697088 /* UserCryptoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6771D2724CE407400697088 /* UserCryptoController.swift */; };
+		F6866BBB24C0EF6200F551A9 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6866BBA24C0EF6200F551A9 /* SettingsController.swift */; };
+		F6FFB83F24D718D400B6B736 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FFB83E24D718D400B6B736 /* TabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F630FC2224BF744C00C4B761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F630FC0824BF744B00C4B761 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F630FC0F24BF744B00C4B761;
+			remoteInfo = CryptoCove;
+		};
+		F630FC2D24BF744C00C4B761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F630FC0824BF744B00C4B761 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F630FC0F24BF744B00C4B761;
+			remoteInfo = CryptoCove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022F5862B008B218154ECBB2 /* Pods_CryptoCove_CryptoCoveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoCove_CryptoCoveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F6E203C19158D71135BC5BE /* Pods_CryptoCove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoCove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA6BE4941F720D342B56D91 /* Pods-CryptoCove-CryptoCoveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoCove-CryptoCoveUITests.debug.xcconfig"; path = "Target Support Files/Pods-CryptoCove-CryptoCoveUITests/Pods-CryptoCove-CryptoCoveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F9A49521811252F9DA90342 /* Pods-CryptoCoveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoCoveTests.debug.xcconfig"; path = "Target Support Files/Pods-CryptoCoveTests/Pods-CryptoCoveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		75CC45786D798EDBE6C2D558 /* Pods-CryptoCoveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoCoveTests.release.xcconfig"; path = "Target Support Files/Pods-CryptoCoveTests/Pods-CryptoCoveTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B00F4398AD55097A2B2585B /* Pods-CryptoCove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoCove.debug.xcconfig"; path = "Target Support Files/Pods-CryptoCove/Pods-CryptoCove.debug.xcconfig"; sourceTree = "<group>"; };
+		90CEF3DC5CD961505ADBC620 /* Pods-CryptoCove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoCove.release.xcconfig"; path = "Target Support Files/Pods-CryptoCove/Pods-CryptoCove.release.xcconfig"; sourceTree = "<group>"; };
+		F630FC1024BF744B00C4B761 /* CryptoCove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F630FC1724BF744C00C4B761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F630FC1A24BF744C00C4B761 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F630FC1C24BF744C00C4B761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F630FC2124BF744C00C4B761 /* CryptoCoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoCoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F630FC2524BF744C00C4B761 /* CryptoCoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCoveTests.swift; sourceTree = "<group>"; };
+		F630FC2724BF744C00C4B761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F630FC2C24BF744C00C4B761 /* CryptoCoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoCoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F630FC3024BF744C00C4B761 /* CryptoCoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCoveUITests.swift; sourceTree = "<group>"; };
+		F630FC3224BF744C00C4B761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F630FC4724BF762B00C4B761 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F630FC4924BF764600C4B761 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		F630FC4F24BF767F00C4B761 /* ContainerControllerOLD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerControllerOLD.swift; sourceTree = "<group>"; };
+		F630FC5124BF768D00C4B761 /* ForgotPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		F630FC5324BF769A00C4B761 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		F630FC5524BF76AD00C4B761 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		F630FC5924BF7ADC00C4B761 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F630FC5E24BF84BA00C4B761 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F630FC6024BF84EB00C4B761 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F630FC6424BF884900C4B761 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6650B0924CD2D5500D0A839 /* UserCryptoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCryptoAPI.swift; sourceTree = "<group>"; };
+		F6650B0C24CD2DA500D0A839 /* UserCryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCryptoTableViewCell.swift; sourceTree = "<group>"; };
+		F6650B0E24CD2DC800D0A839 /* UserCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCrypto.swift; sourceTree = "<group>"; };
+		F667538224D7A1DF00399B9A /* WalletController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletController.swift; sourceTree = "<group>"; };
+		F667538424D7A22D00399B9A /* MSController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSController.swift; sourceTree = "<group>"; };
+		F667538624D7A27F00399B9A /* AddCoinController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoinController.swift; sourceTree = "<group>"; };
+		F6771D2724CE407400697088 /* UserCryptoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCryptoController.swift; sourceTree = "<group>"; };
+		F6866BBA24C0EF6200F551A9 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		F6FFB83E24D718D400B6B736 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		FF01FD200EBC2162D0D271BF /* Pods-CryptoCove-CryptoCoveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoCove-CryptoCoveUITests.release.xcconfig"; path = "Target Support Files/Pods-CryptoCove-CryptoCoveUITests/Pods-CryptoCove-CryptoCoveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF24661CDBEF24AC3851E854 /* Pods_CryptoCoveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoCoveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F630FC0D24BF744B00C4B761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8288E35530EA2D228FFFDBA4 /* Pods_CryptoCove.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F630FC1E24BF744C00C4B761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21911CC8022B9943D4C241AF /* Pods_CryptoCoveTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F630FC2924BF744C00C4B761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6583A21D8CBB0F50996CD7 /* Pods_CryptoCove_CryptoCoveUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B43F71F2A4581CDFD65379F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B00F4398AD55097A2B2585B /* Pods-CryptoCove.debug.xcconfig */,
+				90CEF3DC5CD961505ADBC620 /* Pods-CryptoCove.release.xcconfig */,
+				5AA6BE4941F720D342B56D91 /* Pods-CryptoCove-CryptoCoveUITests.debug.xcconfig */,
+				FF01FD200EBC2162D0D271BF /* Pods-CryptoCove-CryptoCoveUITests.release.xcconfig */,
+				5F9A49521811252F9DA90342 /* Pods-CryptoCoveTests.debug.xcconfig */,
+				75CC45786D798EDBE6C2D558 /* Pods-CryptoCoveTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F32B3A550BCBE9CED6D2C40F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F6E203C19158D71135BC5BE /* Pods_CryptoCove.framework */,
+				022F5862B008B218154ECBB2 /* Pods_CryptoCove_CryptoCoveUITests.framework */,
+				FF24661CDBEF24AC3851E854 /* Pods_CryptoCoveTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F630FC0724BF744B00C4B761 = {
+			isa = PBXGroup;
+			children = (
+				F630FC1224BF744B00C4B761 /* CryptoCove */,
+				F630FC2424BF744C00C4B761 /* CryptoCoveTests */,
+				F630FC2F24BF744C00C4B761 /* CryptoCoveUITests */,
+				F630FC1124BF744B00C4B761 /* Products */,
+				0B43F71F2A4581CDFD65379F /* Pods */,
+				F32B3A550BCBE9CED6D2C40F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F630FC1124BF744B00C4B761 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F630FC1024BF744B00C4B761 /* CryptoCove.app */,
+				F630FC2124BF744C00C4B761 /* CryptoCoveTests.xctest */,
+				F630FC2C24BF744C00C4B761 /* CryptoCoveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F630FC1224BF744B00C4B761 /* CryptoCove */ = {
+			isa = PBXGroup;
+			children = (
+				F630FC1724BF744C00C4B761 /* Assets.xcassets */,
+				F630FC5924BF7ADC00C4B761 /* GoogleService-Info.plist */,
+				F630FC1C24BF744C00C4B761 /* Info.plist */,
+				F630FC6424BF884900C4B761 /* LaunchScreen.storyboard */,
+				F630FC5E24BF84BA00C4B761 /* AppDelegate.swift */,
+				F630FC6024BF84EB00C4B761 /* SceneDelegate.swift */,
+				F630FC4724BF762B00C4B761 /* Extensions.swift */,
+				F630FC4924BF764600C4B761 /* ProfileController.swift */,
+				F630FC4F24BF767F00C4B761 /* ContainerControllerOLD.swift */,
+				F630FC5124BF768D00C4B761 /* ForgotPasswordController.swift */,
+				F630FC5324BF769A00C4B761 /* SignUpController.swift */,
+				F630FC5524BF76AD00C4B761 /* LoginController.swift */,
+				F667538224D7A1DF00399B9A /* WalletController.swift */,
+				F667538424D7A22D00399B9A /* MSController.swift */,
+				F667538624D7A27F00399B9A /* AddCoinController.swift */,
+				F6866BBA24C0EF6200F551A9 /* SettingsController.swift */,
+				F6771D2724CE407400697088 /* UserCryptoController.swift */,
+				F6FFB83E24D718D400B6B736 /* TabBarController.swift */,
+				F6650B0B24CD2D6900D0A839 /* UserCrypto */,
+				F630FC5B24BF840E00C4B761 /* Utils */,
+				F630FC1924BF744C00C4B761 /* Preview Content */,
+			);
+			path = CryptoCove;
+			sourceTree = "<group>";
+		};
+		F630FC1924BF744C00C4B761 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F630FC1A24BF744C00C4B761 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F630FC2424BF744C00C4B761 /* CryptoCoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				F630FC2524BF744C00C4B761 /* CryptoCoveTests.swift */,
+				F630FC2724BF744C00C4B761 /* Info.plist */,
+			);
+			path = CryptoCoveTests;
+			sourceTree = "<group>";
+		};
+		F630FC2F24BF744C00C4B761 /* CryptoCoveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F630FC3024BF744C00C4B761 /* CryptoCoveUITests.swift */,
+				F630FC3224BF744C00C4B761 /* Info.plist */,
+			);
+			path = CryptoCoveUITests;
+			sourceTree = "<group>";
+		};
+		F630FC5B24BF840E00C4B761 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F6650B0B24CD2D6900D0A839 /* UserCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				F6650B0924CD2D5500D0A839 /* UserCryptoAPI.swift */,
+				F6650B0C24CD2DA500D0A839 /* UserCryptoTableViewCell.swift */,
+				F6650B0E24CD2DC800D0A839 /* UserCrypto.swift */,
+			);
+			name = UserCrypto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F630FC0F24BF744B00C4B761 /* CryptoCove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F630FC3524BF744C00C4B761 /* Build configuration list for PBXNativeTarget "CryptoCove" */;
+			buildPhases = (
+				56C20384C0C79B9E775C8BFA /* [CP] Check Pods Manifest.lock */,
+				F630FC0C24BF744B00C4B761 /* Sources */,
+				F630FC0D24BF744B00C4B761 /* Frameworks */,
+				F630FC0E24BF744B00C4B761 /* Resources */,
+				EEE659D9BB9BAB546ABD4E4E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoCove;
+			productName = CryptoCove;
+			productReference = F630FC1024BF744B00C4B761 /* CryptoCove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F630FC2024BF744C00C4B761 /* CryptoCoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F630FC3824BF744C00C4B761 /* Build configuration list for PBXNativeTarget "CryptoCoveTests" */;
+			buildPhases = (
+				4A9AD09A4F3DBC8166E79C61 /* [CP] Check Pods Manifest.lock */,
+				F630FC1D24BF744C00C4B761 /* Sources */,
+				F630FC1E24BF744C00C4B761 /* Frameworks */,
+				F630FC1F24BF744C00C4B761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F630FC2324BF744C00C4B761 /* PBXTargetDependency */,
+			);
+			name = CryptoCoveTests;
+			productName = CryptoCoveTests;
+			productReference = F630FC2124BF744C00C4B761 /* CryptoCoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F630FC2B24BF744C00C4B761 /* CryptoCoveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F630FC3B24BF744C00C4B761 /* Build configuration list for PBXNativeTarget "CryptoCoveUITests" */;
+			buildPhases = (
+				611D8953F7DB7EF1FAB33439 /* [CP] Check Pods Manifest.lock */,
+				F630FC2824BF744C00C4B761 /* Sources */,
+				F630FC2924BF744C00C4B761 /* Frameworks */,
+				F630FC2A24BF744C00C4B761 /* Resources */,
+				7110A4CD1A6C3EDC4EF827F9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F630FC2E24BF744C00C4B761 /* PBXTargetDependency */,
+			);
+			name = CryptoCoveUITests;
+			productName = CryptoCoveUITests;
+			productReference = F630FC2C24BF744C00C4B761 /* CryptoCoveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F630FC0824BF744B00C4B761 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F630FC0F24BF744B00C4B761 = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
+					};
+					F630FC2024BF744C00C4B761 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F630FC0F24BF744B00C4B761;
+					};
+					F630FC2B24BF744C00C4B761 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F630FC0F24BF744B00C4B761;
+					};
+				};
+			};
+			buildConfigurationList = F630FC0B24BF744B00C4B761 /* Build configuration list for PBXProject "CryptoCove" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F630FC0724BF744B00C4B761;
+			productRefGroup = F630FC1124BF744B00C4B761 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F630FC0F24BF744B00C4B761 /* CryptoCove */,
+				F630FC2024BF744C00C4B761 /* CryptoCoveTests */,
+				F630FC2B24BF744C00C4B761 /* CryptoCoveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F630FC0E24BF744B00C4B761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F630FC1B24BF744C00C4B761 /* Preview Assets.xcassets in Resources */,
+				F630FC6524BF884900C4B761 /* LaunchScreen.storyboard in Resources */,
+				F630FC1824BF744C00C4B761 /* Assets.xcassets in Resources */,
+				F630FC5A24BF7ADC00C4B761 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F630FC1F24BF744C00C4B761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F630FC2A24BF744C00C4B761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A9AD09A4F3DBC8166E79C61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoCoveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56C20384C0C79B9E775C8BFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoCove-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		611D8953F7DB7EF1FAB33439 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoCove-CryptoCoveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7110A4CD1A6C3EDC4EF827F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoCove-CryptoCoveUITests/Pods-CryptoCove-CryptoCoveUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoCove-CryptoCoveUITests/Pods-CryptoCove-CryptoCoveUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoCove-CryptoCoveUITests/Pods-CryptoCove-CryptoCoveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEE659D9BB9BAB546ABD4E4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoCove/Pods-CryptoCove-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoCove/Pods-CryptoCove-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoCove/Pods-CryptoCove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F630FC0C24BF744B00C4B761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F630FC4824BF762B00C4B761 /* Extensions.swift in Sources */,
+				F630FC5624BF76AD00C4B761 /* LoginController.swift in Sources */,
+				F6650B0D24CD2DA500D0A839 /* UserCryptoTableViewCell.swift in Sources */,
+				F630FC5F24BF84BA00C4B761 /* AppDelegate.swift in Sources */,
+				F630FC6124BF84EB00C4B761 /* SceneDelegate.swift in Sources */,
+				F630FC5224BF768D00C4B761 /* ForgotPasswordController.swift in Sources */,
+				F6650B0A24CD2D5500D0A839 /* UserCryptoAPI.swift in Sources */,
+				F6866BBB24C0EF6200F551A9 /* SettingsController.swift in Sources */,
+				F6FFB83F24D718D400B6B736 /* TabBarController.swift in Sources */,
+				F630FC4A24BF764600C4B761 /* ProfileController.swift in Sources */,
+				F630FC5424BF769A00C4B761 /* SignUpController.swift in Sources */,
+				F6771D2824CE407400697088 /* UserCryptoController.swift in Sources */,
+				F667538724D7A27F00399B9A /* AddCoinController.swift in Sources */,
+				F667538324D7A1DF00399B9A /* WalletController.swift in Sources */,
+				F630FC5024BF767F00C4B761 /* ContainerControllerOLD.swift in Sources */,
+				F6650B0F24CD2DC800D0A839 /* UserCrypto.swift in Sources */,
+				F667538524D7A22D00399B9A /* MSController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F630FC1D24BF744C00C4B761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F630FC2624BF744C00C4B761 /* CryptoCoveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F630FC2824BF744C00C4B761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F630FC3124BF744C00C4B761 /* CryptoCoveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F630FC2324BF744C00C4B761 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F630FC0F24BF744B00C4B761 /* CryptoCove */;
+			targetProxy = F630FC2224BF744C00C4B761 /* PBXContainerItemProxy */;
+		};
+		F630FC2E24BF744C00C4B761 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F630FC0F24BF744B00C4B761 /* CryptoCove */;
+			targetProxy = F630FC2D24BF744C00C4B761 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F630FC3324BF744C00C4B761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F630FC3424BF744C00C4B761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F630FC3624BF744C00C4B761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B00F4398AD55097A2B2585B /* Pods-CryptoCove.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoCove/Preview Content\"";
+				DEVELOPMENT_TEAM = B3NY7ECHJU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CryptoCove/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryptocoveapplications.CryptoCove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F630FC3724BF744C00C4B761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90CEF3DC5CD961505ADBC620 /* Pods-CryptoCove.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoCove/Preview Content\"";
+				DEVELOPMENT_TEAM = B3NY7ECHJU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CryptoCove/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryptocoveapplications.CryptoCove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F630FC3924BF744C00C4B761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F9A49521811252F9DA90342 /* Pods-CryptoCoveTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3NY7ECHJU;
+				INFOPLIST_FILE = CryptoCoveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryptocoveapplications.CryptoCoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoCove.app/CryptoCove";
+			};
+			name = Debug;
+		};
+		F630FC3A24BF744C00C4B761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75CC45786D798EDBE6C2D558 /* Pods-CryptoCoveTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3NY7ECHJU;
+				INFOPLIST_FILE = CryptoCoveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryptocoveapplications.CryptoCoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoCove.app/CryptoCove";
+			};
+			name = Release;
+		};
+		F630FC3C24BF744C00C4B761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AA6BE4941F720D342B56D91 /* Pods-CryptoCove-CryptoCoveUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3NY7ECHJU;
+				INFOPLIST_FILE = CryptoCoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryptocoveapplications.CryptoCoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CryptoCove;
+			};
+			name = Debug;
+		};
+		F630FC3D24BF744C00C4B761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF01FD200EBC2162D0D271BF /* Pods-CryptoCove-CryptoCoveUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3NY7ECHJU;
+				INFOPLIST_FILE = CryptoCoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryptocoveapplications.CryptoCoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CryptoCove;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F630FC0B24BF744B00C4B761 /* Build configuration list for PBXProject "CryptoCove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F630FC3324BF744C00C4B761 /* Debug */,
+				F630FC3424BF744C00C4B761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F630FC3524BF744C00C4B761 /* Build configuration list for PBXNativeTarget "CryptoCove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F630FC3624BF744C00C4B761 /* Debug */,
+				F630FC3724BF744C00C4B761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F630FC3824BF744C00C4B761 /* Build configuration list for PBXNativeTarget "CryptoCoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F630FC3924BF744C00C4B761 /* Debug */,
+				F630FC3A24BF744C00C4B761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F630FC3B24BF744C00C4B761 /* Build configuration list for PBXNativeTarget "CryptoCoveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F630FC3C24BF744C00C4B761 /* Debug */,
+				F630FC3D24BF744C00C4B761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F630FC0824BF744B00C4B761 /* Project object */;
+}

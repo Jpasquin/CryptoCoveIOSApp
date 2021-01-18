@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FB856073-E9E1-4290-9C4E-84090A19441E"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F080944A-1931-4CFE-8B71-8D1754062848"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoCove/UserCrypto.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "F080944A-1931-4CFE-8B71-8D1754062848 - 323b763bd7fbc3f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoCove.UserCrypto.deinit"
+                  moduleName = "CryptoCove"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathanpasquin/Desktop/Projects/Crypto%20Cove/Xcode/CryptoCoveIOS/CryptoCove/UserCrypto.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "F080944A-1931-4CFE-8B71-8D1754062848 - 6da2ab0318b5c12a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoCove.UserCrypto.__deallocating_deinit"
+                  moduleName = "CryptoCove"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathanpasquin/Desktop/Projects/Crypto%20Cove/Xcode/CryptoCoveIOS/CryptoCove/UserCrypto.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "F080944A-1931-4CFE-8B71-8D1754062848 - 2fc70d1e741e9f43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoCove.UserCrypto.__allocating_init() -&gt; CryptoCove.UserCrypto"
+                  moduleName = "CryptoCove"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathanpasquin/Desktop/Projects/Crypto%20Cove/Xcode/CryptoCoveIOS/CryptoCove/UserCrypto.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "17">
+               </Location>
+               <Location
+                  uuid = "F080944A-1931-4CFE-8B71-8D1754062848 - f1856f49e7b35543"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoCove.UserCrypto.init() -&gt; CryptoCove.UserCrypto"
+                  moduleName = "CryptoCove"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathanpasquin/Desktop/Projects/Crypto%20Cove/Xcode/CryptoCoveIOS/CryptoCove/UserCrypto.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
